@@ -32,11 +32,6 @@ interface UseCounterReturnType {
 
 export const useCounter = (): UseCounterReturnType => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  //   const [count, setCount] = useState<number>(0);
-
-  //   const handleIncrementDecrement = (type: "add" | "sub") => {
-  //     setCount((prev) => (type === "add" ? prev + 1 : prev - 1));
-  //   };
 
   return {
     count: state.count,
