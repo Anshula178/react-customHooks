@@ -10,8 +10,8 @@ function App() {
         <p>{count}</p>
         <div className="flex items-center">
           <div className="flex gap-2 mx-auto">
-            <Button text="+" disabled={count > 10} onClick={() => dispatch({ type: "add" })} />
-            <Button text="-" buttonType="secondary" disabled={count < 1} onClick={() => dispatch({ type: "sub" })} />
+            <Button text="Add" disabled={count > 10} onClick={() => dispatch({ type: "add" })} />
+            <Button text="Sub" buttonType="secondary" disabled={count < 1} onClick={() => dispatch({ type: "sub" })} />
           </div>
         </div>
       </div>
