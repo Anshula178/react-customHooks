@@ -4,7 +4,7 @@ interface ButtonType extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const commonClassName =
-  "px-6 py-2 text-center rounded-md text-white text-xl disabled:bg-gray-500 disabled:pointer-events-none ";
+  "px-4 py-2 text-center rounded-md text-white text-xl disabled:bg-gray-500 disabled:pointer-events-none ";
 
 const buttonTypeObj = {
   primary: "bg-blue-600 hover:bg-blue-800",
