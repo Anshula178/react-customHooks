@@ -1,5 +1,3 @@
-import { useCounter } from "@src/hooks/useCounter";
-
 interface ButtonType extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   buttonType?: "primary" | "secondary";
