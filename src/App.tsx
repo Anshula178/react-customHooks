@@ -1,6 +1,6 @@
 import "./App.css";
-import Button from "./Components/Button";
-import { useCounter } from "./hooks/useCounter";
+import { useCounter } from "@src/hooks/useCounter";
+import Button from "@src/Components/Button";
 
 function App() {
   const { count, dispatch } = useCounter();
